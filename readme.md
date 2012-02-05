@@ -1,6 +1,15 @@
 # description
 This is a collection of scripts that may be usefull to somebody. They are usefull to me :) .
 
+## usage
+Most of the scripts are basic command line scripts. Put them inside a directory that is in your $PATH.  
+For individual usage take a look into the script or try adding the --help argument to it.
+
+
+### apple scripts
+I exported them as programs, because this way one only has to double klick them to activate. But you can always change them using the AppleScript-Editor.
+
+
 ## lizence (MIT)
 
 Copyright (c) 2012 Waldemar Schwan

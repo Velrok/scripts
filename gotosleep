@@ -1,4 +1,5 @@
 #!/bin/bash
+# MIT lizence © 2012 Waldemar Schwan
 if [ -e $1 ] 
 then
 	time="+1"
@@ -7,5 +8,7 @@ else
 fi
 sudo shutdown -s $time
 
+# this is very custom stuff
+# I eject all my usb drives so I can get packing easyly after the mac went to sleep
 diskutil umount /Volumes/Vergangenheit/ &
 diskutil umount /Volumes/Goldshire &

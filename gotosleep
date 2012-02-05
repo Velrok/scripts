@@ -1,0 +1,11 @@
+#!/bin/bash
+if [ -e $1 ] 
+then
+	time="+1"
+else
+	time="+$1"
+fi
+sudo shutdown -s $time
+
+diskutil umount /Volumes/Vergangenheit/ &
+diskutil umount /Volumes/Goldshire &

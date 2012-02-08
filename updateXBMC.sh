@@ -1,10 +1,13 @@
 #!/bin/bash
 
+# REQUIREMENTS:
+# - wget ( get it via 'brew install wget' ) // if you don't have brew give it a shoot.
+
 # This script is Mac specific!
 # It installes the latest nightly build of XBMC.
 # Have fun. Take a look at https://github.com/Velrok/scripts .
 
-working_dir="/tmp/$0"
+working_dir="/tmp/updateXBMC"
 mount_dir="$working_dir/mount"
 
 if [ ! -d $working_dir ] 

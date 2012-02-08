@@ -19,7 +19,7 @@ fi
 cd $working_dir
 echo "downloading the latest version"
 dmg_file="$working_dir/latest.dmg"
-wget -O "$dmg_file http://mirrors.xbmc.org/nightlies/osx/latest.dmg"
+wget -O $dmg_file http://mirrors.xbmc.org/nightlies/osx/latest.dmg
 
 
 # mount the image and copy the contents

@@ -1,0 +1,3 @@
+#!/bin/bash
+# homepage: https://github.com/Velrok/scripts
+growlnotify -I ~/Icons/Starwars\ icons/icons/R2-D2 -m 'Erfolg :)'
